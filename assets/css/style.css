@@ -1,0 +1,152 @@
+html{
+    box-sizing: border-box;
+    font-family: "B Koodak";
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+    transition: .4s ease;
+}
+body{
+    top: 0;
+    margin: 0;
+    direction: rtl;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+}
+button:not(.dropbtn){
+    width: 130px;
+    padding: 5px 20px;
+    border: 2px;
+    background-color: inherit;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15pt;
+}
+i{
+    padding:  0 5px;
+}
+main{
+    height: 1000px;
+}
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+body,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+/* navbar */
+.navbar {
+    overflow: hidden;
+    background-color: inherit;
+}
+.navbar a{
+    transition: .3s;
+    font-family: "B Koodak";
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+.navbar a[id=btnLog]{
+    float: left;
+    margin: 14px 16px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 20px;
+    background-color: inherit;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "B Koodak";
+    font-size: 15pt;
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+    cursor: pointer;
+}
+.dropdown .dropbtn {
+    font-family: "B Koodak";
+    transition: .3s;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    background: none;
+    margin: 0;
+}
+.dropdown .dropbtn i{
+    padding: 25px 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    transition: .3s;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.logo{
+    padding: 10px 5px;
+    width: 80px;
+    float: right;
+}
+
+
+footer > .wave{
+    margin-top: 10%;
+    float: right;
+    background-image: url("../images/wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+footer > .foot{
+    font-family: "B Koodak";
+    margin-top: -50px;
+    float: right;
+    width: 100%;
+    background-color: #242f66;
+}
+footer > .foot > .col-33{
+    width: 23.33%;
+    margin: 2% 5%;
+    float: right;
+}
+footer > .foot > .col-33 > h2{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+footer > .foot > .col-33 > a i{
+    float: left;
+    padding: 0 10px;
+    color: white;
+    font-size: 20pt;
+}
+footer > .foot > .col-33 > p{
+    float: right;
+    margin: 0;
+    text-align: justify;
+    color: white;
+    font-size: 12pt;
+}

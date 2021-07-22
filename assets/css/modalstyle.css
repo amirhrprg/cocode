@@ -1,0 +1,148 @@
+.modal{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    float: right;
+    height: 540px;
+    padding: 10px;
+}
+.titles{
+    width: 100%;
+    float: right;
+}
+.titles button{
+    background-color: #dedede;
+    cursor: pointer;
+    font-family: "B Koodak";
+    font-size: 12pt;
+    padding: 20px 0;
+    float: right;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+.titles button:hover{
+    background-color: #f1f1f1;
+}
+.area{
+    float: right;
+    width: 100%;
+    padding: 20px 150px;
+}
+.area label:not(.lblremember){
+    font-family: "B Koodak";
+    margin: .5% 0;
+    width: 100%;
+    float: right;
+}
+.area input[type=text] , .area input[type=password] {
+    border: none;
+    border-radius: 0;
+    background-color: #e1e1e1;
+    padding: 10px 2px;
+    width: 100%;
+    float: right;
+}
+
+.lblremember{
+    margin: 2% 0;
+    float: right;
+}
+.area input[type=checkbox]{
+    float: right;
+    margin: 2.2% 1%;
+}
+
+.area button{
+    width: 100%;
+    float: right;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-family: "B Koodak";
+    color: white;
+    font-size: 11pt;
+    margin: 1% 0;
+}
+.fl button[name=login]{
+    background-color: #009900;
+}
+.fl button[name=exit]{
+    background-color: #e60000;
+}
+.fs button[name=user_save]
+{
+    background-color: #242f66;
+}
+.area .link{
+    float: right;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.area .link > a{
+    font-family: "B Koodak";
+    text-align: center;
+    text-decoration: none;
+    color: #730099;
+}
+.fl input{
+    text-align: left;
+    padding: 5px;
+}
+.win{
+    float: right;
+    background-color: rgba(0,0,0,0.3);
+    min-height: 700px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20%;
+}
+.cls{
+    float: right;
+    width: 100%;
+}
+.cls button{
+    float: inherit;
+    color: red;
+    font-size: 20px;
+    background: none;
+    width: auto;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.cls button:hover{
+    color: darkred;
+}
+.titles .active{
+    background-color: white;
+}
+.message{
+    float: right;
+    width: 100%;
+    text-align: center;
+    cursor: not-allowed;
+}
+.message p{
+    float: right;
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+    animation: changewidth 1s;
+}
+@keyframes changewidth {
+    from{
+        width: 0;
+    }
+    to
+    {
+        width: 100%;
+    }
+}
